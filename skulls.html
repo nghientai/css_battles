@@ -1,0 +1,79 @@
+<!-- https://cssbattle.dev/play/56 -->
+
+<div class="head"></div>
+<div class="chin">
+  <div class="eyes">
+  	<div class="left"></div>
+    <div class="right"></div>
+  </div>
+  <div class="nose"></div>
+  <div class="teeth">
+    <div class="tooth"></div>
+    <div class="tooth"></div>
+    <div class="tooth"></div>
+  </div>
+</div>
+<style>
+  body{
+    background: #191919;
+  }
+  .eyes{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 36px;
+    width: 90px;
+    left: -4px;
+  }
+  .eyes .left,
+  .eyes .right{
+    height: 40px;
+    width: 40px;
+    background: #191919;
+    border-radius: 50%;
+  }
+  
+  .head {
+    width: 120px;
+    height: 100px;
+    background: #4F77FF;
+    position: absolute;
+    top: 85px;
+    left: 140px;
+    border-radius: 150px 150px 25% 25% ;
+  }
+  .chin{
+    width: 80px;
+    height: 30px;
+    background: #4F77FF;
+    position: relative;
+    top: 176px;
+    left: 153px;
+	border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .nose{
+    width: 20px;
+    height: 20px;
+    background: #191919;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 30px;
+  }
+  .teeth{
+    position: absolute;
+    top: 21px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .tooth{
+    width: 10px;
+    height: 30px;
+    background: #191919;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 5px;
+  }
+</style>
