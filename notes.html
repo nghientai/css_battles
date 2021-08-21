@@ -1,0 +1,89 @@
+<!-- https://cssbattle.dev/play/77 -->
+
+<div class="double-nodes">
+  <div class="node node1"></div>
+    <div class="node node2"></div>
+</div>
+<div class="single-node">
+	<div class="node node1"></div>
+</div>
+<div class="single-node-2">
+  <div class="two-lines"></div>
+	<div class="node node1"></div>
+</div>
+<style>
+  body{
+    background: #191919;
+  }
+  
+  .single-node-2{
+    width: 100px;
+    height: 100px;
+    background: #191919;
+    border-left: 10px solid #FE5F55;
+    position: relative;
+    top: -112px;
+    left: 300px;
+    width: 28px;
+    height: 92px;
+  }
+  
+  .two-lines{
+    width: 27px;
+    height: 10px;
+    background: #191919;
+    border: 10px solid #FE5F55;
+    position: absolute;
+    border-right: 0px;
+    left: -10px;
+    top: -10px;
+  }
+  
+  .single-node{
+    width: 100px;
+    height: 100px;
+    background: #191919;
+    border: 10px solid #A64942;
+    position: relative;
+    top: -20px;
+    left: 230px;
+    width: 26px;
+    height: 92px;
+    border-bottom: 0px;
+    border-right: 0px;
+  }
+  
+  .single-node .node1{
+    background: #A64942;
+  }
+  
+  .double-nodes {
+    width: 100px;
+    height: 100px;
+    background: #191919;
+    border: 10px solid #FE5F55;
+    position: relative;
+    top: 82px;
+    left: 88px;
+    width: 60px;
+    height: 92px;
+    border-bottom: 0px;
+  }
+  .node{
+    position:absolute;
+    width: 50px;
+    height:40px;
+    background: #FE5F55;
+    border-radius: 50%;
+  }
+  .node1{
+    bottom: -18px;
+    left: -51px;
+  }
+  
+  .node2{
+    bottom: -18px;
+    right: -10px;
+  }
+  
+</style>
